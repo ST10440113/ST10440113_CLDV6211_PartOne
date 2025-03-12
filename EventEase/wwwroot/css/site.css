@@ -1,12 +1,13 @@
 html {
     font-size: 14px;
-    
+ color:antiquewhite   
 }
 
 @media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+    html {
+        font-size: 16px;
+        color: antiquewhite
+    }
 }
 
 .btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
@@ -21,12 +22,9 @@ html {
 body {
     margin-bottom: 60px;
     background-image: url('../images/screenshot 2025-03-11 232513.png');
-   
-}
-
-h1  {
     color:antiquewhite;
 }
+
 
 
 .form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
