@@ -12,6 +12,8 @@ namespace EventEase.Controllers
 {
     public class BookingsController : Controller
     {
+
+
         private readonly EventEaseContext _context;
 
         public BookingsController(EventEaseContext context)

@@ -9,6 +9,8 @@ namespace EventEase.Data
 {
     public class EventEaseContext : DbContext
     {
+        
+
         public EventEaseContext (DbContextOptions<EventEaseContext> options)
             : base(options)
         {
@@ -17,5 +19,8 @@ namespace EventEase.Data
         public DbSet<EventEase.Models.Event> Event { get; set; } = default!;
         public DbSet<EventEase.Models.Venue> Venue { get; set; } = default!;
         public DbSet<EventEase.Models.Booking> Booking { get; set; } = default!;
+
+        
     }
 }
+
