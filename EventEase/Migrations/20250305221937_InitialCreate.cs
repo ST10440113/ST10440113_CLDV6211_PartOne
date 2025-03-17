@@ -15,7 +15,7 @@ namespace EventEase.Migrations
                 name: "Event",
                 columns: table => new
                 {
-                    EventId = table.Column<string>(type: "string", nullable: false)
+                    EventId = table.Column<string>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     EventName = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Description = table.Column<string>(type: "nvarchar(max)", nullable: true),

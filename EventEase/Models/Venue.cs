@@ -7,6 +7,7 @@ namespace EventEase.Models
 
          public int VenueId { get; set; }
 
+        [Display(Name = "Venue Name")] 
         public required string VenueName { get; set; }
 
         public string? Location { get; set; }

@@ -8,13 +8,15 @@ namespace EventEase.Models
 
         
         [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)] 
+        
         public int EventId { get; set; }
-       
+
+        [Display(Name = "Event Name")] 
         public required string EventName { get; set; }
 
         public string? Description { get; set; }
 
+        [Display(Name = "Event Date")]
         [DataType(DataType.Date)]
         public DateTime EventDate { get; set; }
 
