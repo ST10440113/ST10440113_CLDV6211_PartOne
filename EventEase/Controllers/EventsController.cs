@@ -23,11 +23,14 @@ namespace EventEase.Controllers
         public EventsController(EventEaseContext context)
         {
             _context = context;
+
+
         }
 
         // GET: Events
         public async Task<IActionResult> Index()
         {
+           
             
             return View(await _context.Event.ToListAsync());
         }

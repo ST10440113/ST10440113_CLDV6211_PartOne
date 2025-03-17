@@ -18,6 +18,9 @@ namespace EventEase.Models
         [DataType(DataType.Date)]
         public DateTime EventDate { get; set; }
 
+        
+        
+
     }
 }
 
