@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EventEase.Migrations
 {
     [DbContext(typeof(EventEaseContext))]
-    [Migration("20250317215446_FormatCreate")]
-    partial class FormatCreate
+    [Migration("20250320004653_FifthCreate")]
+    partial class FifthCreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

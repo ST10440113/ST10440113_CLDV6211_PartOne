@@ -5,7 +5,7 @@
 namespace EventEase.Migrations
 {
     /// <inheritdoc />
-    public partial class FormatCreate : Migration
+    public partial class SixthCreate : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

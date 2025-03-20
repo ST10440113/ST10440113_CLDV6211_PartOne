@@ -8,6 +8,8 @@ using Microsoft.EntityFrameworkCore;
 using EventEase.Data;
 using EventEase.Models;
 
+
+
 namespace EventEase.Controllers
 {
     public class VenuesController : Controller
@@ -22,8 +24,14 @@ namespace EventEase.Controllers
         // GET: Venues
         public async Task<IActionResult> Index()
         {
+        
+
             return View(await _context.Venue.ToListAsync());
         }
+
+        
+
+
         // GET: Venues/Details/5
         public async Task<IActionResult> Details(int? id)
         {
